@@ -58,3 +58,6 @@ input {
     justify-content: center;
     gap: 9px;
 }
+.text {
+    margin: 15px;
+}
