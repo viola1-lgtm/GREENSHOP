@@ -51,7 +51,6 @@ a {
     color: #FFFFFF;
     font-weight: 600;
     cursor: pointer;
-    transition: 0.3s;
     font-family: Cera Pro-light;
     gap: 4px;
   }
@@ -96,7 +95,6 @@ a {
     border-radius: 6px;
     font-weight: 600;
     cursor: pointer;
-    transition: 0.3s;
     font-family: Cera Pro-Light;
   }
 .active {
