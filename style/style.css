@@ -7,3 +7,99 @@ a {
     color: inherit;
     text-decoration: none;
 }
+@font-face{
+    font-family: Cera Pro-Light;
+    src: url(../fonts/CeraPro-Light.woff);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.shop {
+  font-family: Cera Pro-Light;
+  color: #3D3D3D;
+  margin-top: 100px;
+}
+.side {
+  width: 250px;
+  float: left;
+}
+.side h3 {
+  font-size: 18px;
+}
+.categories {
+  height: 383px;
+  width: 103px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+ul li {
+  margin-bottom: 20px;
+}
+.active {
+  color: #46A358;
+  font-weight: bold;
+}
+.banner {
+  margin-top: 150px;
+}
+.sort {
+  float: right;
+  margin-top: -19px;
+}
+.filters {
+  font-size: 15px;
+  margin-left: 350px;
+}
+.header-shop a {
+ margin-right: 40px;
+}
+.product-card {
+  margin-bottom: 70px;
+  float: left;
+  border-radius: 8px;
+}
+.product-card img {
+  height: 250px;
+  width: 250px;
+}
+.product-grid {
+  margin-left: 350px;
+  margin-top: 50px;
+}
+.product-card h4 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 5px 0;
+}
+.price {
+  color: #46A358;
+  font-weight: bold;
+}
+.pages {
+  clear: both;
+  text-align: right;
+  margin-top: 40px;
+}
+.pages a {
+  color: #3d3d3d;
+  border: 1px solid #E5E5E5;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin: 0 3px;
+  font-size: 15px;
+}
+.categories a:hover {
+  color: #46A358;
+}
+.filters a:hover {
+  color: #46A358;
+}
+.pages a:hover {
+  background-color: #46A358;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+
