@@ -7,3 +7,122 @@ a {
     color: inherit;
     text-decoration: none;
 }
+@font-face {
+    font-family: Cera Pro;
+    src: url(../fonts/CeraPro-Black.woff);
+}
+@font-face {
+    font-family: Cera Pro Regular;
+    src: url(../fonts/CeraPro-Regular.woff);
+}
+@font-face {
+    font-family: Cera Pro M;
+    src: url(../fonts/CeraPro-Medium.woff);
+}
+@font-face {
+    font-family: Cera Pro B;
+    src: url(../fonts/CeraPro-Bold.woff);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.promo {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px ;
+}
+.promo-card {
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 10px;
+}
+.promo-text {
+    text-align: right;
+}
+h3 {
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3D3D3D;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.promo-text p {
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 25px;
+    font-family: Cera Pro Regular;
+}
+.promo-card img {
+    width: 280px;
+    height: auto;
+}
+.btn {
+    color: white;
+    background-color: #46A358;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: Cera Pro M;
+}
+.blog {
+    text-align: center;
+    padding: 50px;
+}
+.blog-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.blog-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    width: 23%;
+    text-align: left;
+}
+.blog h2 {
+    color: #3D3D3D;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: Cera Pro B;
+}
+.blog p {
+    color: #727272;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-family: Cera Pro Regular;
+}
+.blog-card h4 {
+    color: #3D3D3D;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: Cera Pro B;
+}
+#date {
+    color: #46A358;
+    font-size: 14px;
+    font-family: Cera Pro M;
+}
+.blog-card p {
+    font-size: 14px;
+    color: #727272;
+    margin-bottom: 10px;
+}
+.read {
+    color: #3D3D3D;
+    font-size: 14px;
+    font-family: Cera Pro M;
+}
+.read:hover {
+    color: #46A358;
+}
